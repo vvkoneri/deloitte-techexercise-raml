@@ -1,0 +1,29 @@
+{
+  "configs": [
+    "customers.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "customerrecords-deloittetechexercise",
+  "minMuleVersion": "4.1.2",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedResources": [
+        "api\\customers.raml",
+        "api\\json\\get-customers-sample.json",
+        "api\\json\\get-orders-sample.json",
+        "api\\json\\get-products-sample.json",
+        "api\\json\\post-customers-sample.json",
+        "api\\json\\post-order-sample.json",
+        "api\\json\\post-product-sample.json"
+      ],
+      "exportedPackages": []
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
